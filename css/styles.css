@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+/* ============== Header content =========== */
+
+.headerContainer {
+    
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+    justify-content: space-between;
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: x-small;
+    width: 60%;
+}
+
+li {
+    padding: 15px; 
+}
+
+#logo {
+    display: block;
+    padding-left: 30px;
+    padding-top:   30px;
+}
+
+#immersive {
+    width: 100vw;
+    display: flex;
+    align-self: center;
+    border: 2px solid white;
+    font-size: 3em;
+    margin-right: 50px;
+    justify-content: center;
+
+}
+
+#immersive>p {
+    
+}
